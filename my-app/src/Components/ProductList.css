@@ -1,0 +1,82 @@
+/* Overall container */
+.product-list-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Heading */
+.product-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Product grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+/* Card container */
+.product-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Image wrapper for consistent sizing */
+.image-wrapper {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.product-card img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Product title */
+.product-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  height: 48px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+/* Price */
+.product-price {
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 0.5rem;
+}
+
+/* View button */
+.view-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}

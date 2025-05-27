@@ -1,0 +1,29 @@
+nav {
+  background-color: #343a40;
+  padding: 1.5rem 2rem;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  position: fixed;  /* Make navbar fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;    /* Ensure it stays on top */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: white;
+  margin-right: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.4rem; /* Increased font size */
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: red;
+  text-decoration: underline;
+}
